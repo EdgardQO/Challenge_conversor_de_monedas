@@ -1,3 +1,3 @@
 # Challenge_conversor_de_monedas_AluraLatam_G7
-Challenge_conversor_de_monedas_AluraLatam_G7
+Challenge_conversor_de_monedas_AluraLatam_G7 <br>
 By: Edgard Quijano
