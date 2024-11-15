@@ -96,8 +96,9 @@ public class principalConAPI {
     }
 
     // Método para realizar la solicitud HTTP y devuelve el objeto Intermediario
+    //Usa tu API KEY
     public static Intermediario obtenerConversion(String busqueda1, String busqueda2, double cantidad, Gson gson) throws IOException, InterruptedException {
-        String direccion = "https://v6.exchangerate-api.com/v6/69c3bfc534a19f54189047e9/pair/" + busqueda1 + "/" + busqueda2 + "/" + cantidad;
+        String direccion = "https://v6.exchangerate-api.com/v6/APIKEY/pair/" + busqueda1 + "/" + busqueda2 + "/" + cantidad;
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(direccion))
